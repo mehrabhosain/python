@@ -1,0 +1,16 @@
+count = []
+for n in range(100):
+    n +=1    
+    count.append(n)
+#print(count)
+
+#Find_only_odd_Number
+odd_nos = list(filter(lambda x: (x % 2 != 0), count))
+print(odd_nos)
+#find_only_even
+even_nos = list(filter(lambda x: (x % 2 == 0), count))
+print(even_nos)
+
+#join_List
+final=odd_nos+even_nos
+print(final)

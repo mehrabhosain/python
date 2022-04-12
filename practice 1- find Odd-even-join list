@@ -14,3 +14,6 @@ print(even_nos)
 #join_List
 final=odd_nos+even_nos
 print(final)
+
+squares = [n**3 for n in range(10)]
+squares
